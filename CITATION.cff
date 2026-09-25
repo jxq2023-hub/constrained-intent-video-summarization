@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use this code or derived dataset, please cite the accompanying article and this repository release.
+title: Constrained-intent query-focused video summarization code and derived data
+type: software
+version: 1.0.0
+date-released: 2026-09-25
+authors:
+  - family-names: Zhai
+    given-names: Shangyu
+    orcid: https://orcid.org/0009-0005-7431-4234
+  - family-names: Zhao
+    given-names: Yongheng
+    orcid: https://orcid.org/0009-0009-8544-8704
+  - family-names: Tian
+    given-names: Wei
+    orcid: https://orcid.org/0009-0007-6385-9882
+repository-code: https://github.com/jxq2023-hub/constrained-intent-video-summarization/
+license: MIT

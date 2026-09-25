@@ -1,0 +1,13 @@
+﻿comparison,metric,n_query_pairs,mean_difference,bootstrap_ci_low,bootstrap_ci_high,wilcoxon_p_exploratory
+LLM-Parsed - Oracle-Intent,fscore,180,-0.00414115138180085,-0.007310347554071975,-0.001336429041054774,0.2700938916259562
+LLM-Parsed - Oracle-Intent,exact_fscore,180,-0.0007408374549912159,-0.001552862856057994,-3.10163285618732e-05,0.4079007350991166
+LLM-Parsed - Oracle-Intent,query_relevance_or,180,-0.02082846043257765,-0.03142075011134639,-0.011446693882304041,0.016364653545755035
+LLM-Parsed - Oracle-Intent,query_relevance_and,180,-0.006724837511936661,-0.01146699025667613,-0.0029411799344371855,0.05323748575837731
+Rule-Parsed - Oracle-Intent,fscore,180,0.0,0.0,0.0,1.0
+Rule-Parsed - Oracle-Intent,exact_fscore,180,0.0,0.0,0.0,1.0
+Rule-Parsed - Oracle-Intent,query_relevance_or,180,0.0,0.0,0.0,1.0
+Rule-Parsed - Oracle-Intent,query_relevance_and,180,0.0,0.0,0.0,1.0
+No-Intent-Visual - Oracle-Intent,fscore,180,-0.11701562980977877,-0.13614793053455432,-0.0980824875595565,6.2818817090197866e-21
+No-Intent-Visual - Oracle-Intent,exact_fscore,180,-0.02628212289042052,-0.032123800648271604,-0.02048570547264595,7.767072010967868e-14
+No-Intent-Visual - Oracle-Intent,query_relevance_or,180,-0.39670861231114113,-0.4430981371558987,-0.3495655687757147,7.885815958772553e-28
+No-Intent-Visual - Oracle-Intent,query_relevance_and,180,-0.09440471734290075,-0.12493002791511669,-0.06686510979113472,1.509421072378519e-12

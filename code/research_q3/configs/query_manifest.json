@@ -1,0 +1,308 @@
+{
+  "generator": "Qwen2.5-7B via Ollama; temperature=0; seed=20260717",
+  "purpose": "Frozen Chinese queries for Chinese-CLIP evaluation",
+  "TVSum": {
+    "AwmHb44_ouw": {
+      "source_title": "#1306 How to change tires for off road vehicles [Davidsfarm]",
+      "query_zh": "更换越野车辆轮胎方法"
+    },
+    "98MoyGZKHXc": {
+      "source_title": "How to use a tyre repair kit - Which? guide",
+      "query_zh": "轮胎修补工具使用指南"
+    },
+    "J0nA4VgnoCo": {
+      "source_title": "#0001: FLAT TIRE",
+      "query_zh": "瘪胎"
+    },
+    "gzDbaEs1Rlg": {
+      "source_title": "ŠKODA Tips How to Repair Your Tyre",
+      "query_zh": "修轮胎技巧"
+    },
+    "XzYM3PfTM4w": {
+      "source_title": "When to Replace Your Tires GMC",
+      "query_zh": "更换轮胎时机GMC"
+    },
+    "HT5vyqe0Xaw": {
+      "source_title": "The stuck truck of Mark, The rut that filled an afternoon.",
+      "query_zh": "马克卡陷坑填下午"
+    },
+    "sTEELN-vY30": {
+      "source_title": "BBC - Train crash 2013",
+      "query_zh": "2013年火车相撞事故"
+    },
+    "vdmoEJ5YbrQ": {
+      "source_title": "#453 girl gets van stuck in the back fourty [Davidsfarm]",
+      "query_zh": "女孩困住农庄后院货车"
+    },
+    "xwqBXPGE9pQ": {
+      "source_title": "Smart Electric Vehicle Balances on Two Wheels",
+      "query_zh": "智能电动平衡车"
+    },
+    "akI8YFjEmUw": {
+      "source_title": "Electric cars making earth more green",
+      "query_zh": "电动车让地球更绿色"
+    },
+    "i3wAGJaaktw": {
+      "source_title": "Pet Joy Spa Grooming Services | Brentwood, CA (310) 471-0088",
+      "query_zh": "宠物SPA美容服务"
+    },
+    "Bhxk-O1Y7Ho": {
+      "source_title": "Vlog #509 I'M A PUPPY DOG GROOMER! September 13, 2014",
+      "query_zh": "狗狗美容师的一天"
+    },
+    "0tmA_C6XwfM": {
+      "source_title": "Nail clipper Gloria Pets professional grooming",
+      "query_zh": "宠物指甲剪专业修剪"
+    },
+    "3eYKfiOEJNs": {
+      "source_title": "Dog Grooming in Buenos Aires",
+      "query_zh": "阿根廷狗狗美容"
+    },
+    "xxdtq8mxegs": {
+      "source_title": "How to Clean Your Dog's Ears - Vetoquinol USA",
+      "query_zh": "狗狗耳部清洁方法"
+    },
+    "WG0MBPpPC6I": {
+      "source_title": "Mexican Fried Chicken Sandwich Recipe",
+      "query_zh": "墨西哥炸鸡三明治食谱"
+    },
+    "Hl-__g2gn_A": {
+      "source_title": "Reuben Sandwich with Corned Beef & Sauerkraut",
+      "query_zh": "牛肉咸酸菜鲁宾三明治"
+    },
+    "Yi4Ij2NM7U4": {
+      "source_title": "Poor Man's Meals: Spicy Sausage Sandwich",
+      "query_zh": "穷人午餐：辣香肠三明治"
+    },
+    "37rzWOQsNIw": {
+      "source_title": "Saigon Sandwich - Vietnamese Sandwiches in San Francisco CA",
+      "query_zh": "越南三明治-旧金山沙爹 sandwich"
+    },
+    "LRw_obCPUt0": {
+      "source_title": "GoogaMooga Sneak Peek Joseph Leonard's Fried Chicken Sandwich cooking video",
+      "query_zh": "_googa_mooga炸鸡三明治烹饪视频预览_"
+    },
+    "cjibtmSLxQ4": {
+      "source_title": "David Belle | Fondateur du parkour | Reportage de TF1",
+      "query_zh": "大卫·贝利|parkour创始人|tf1报道"
+    },
+    "b626MiF1ew4": {
+      "source_title": "Charlotte Parkour | Charlotte Video Project",
+      "query_zh": "Charlotte公园跑视频项目"
+    },
+    "XkqCExn6_Us": {
+      "source_title": "Singapore Parkour Free Running | JC Boy Late for School",
+      "query_zh": "新加坡公园跑晚到学校"
+    },
+    "GsAD1KT1xo8": {
+      "source_title": "Parkour Camp Leipzig",
+      "query_zh": "莱比锡障碍跑训练营"
+    },
+    "PJrm840pAUI": {
+      "source_title": "Vivencias: Jam Parkour Viña del Mar 2012",
+      "query_zh": "2012年维ña德尔马公园OUR跑体验"
+    },
+    "91IHQYk1IQM": {
+      "source_title": "Chinese New Year Parade 2012 New York City Chinatown",
+      "query_zh": "2012年纽约唐人街春节游行"
+    },
+    "RBCABdttQmI": {
+      "source_title": "2013 Alumnae Parade & Laurel Chain Ceremony",
+      "query_zh": "2013届校友游行暨 Laurel 链仪式"
+    },
+    "z_6gVvQb2d0": {
+      "source_title": "LA Kings Stanley Cup South Bay Parade 2014",
+      "query_zh": "LA国王队斯坦利杯游行2014"
+    },
+    "fWutDQy1nnY": {
+      "source_title": "Chinatown Parade",
+      "query_zh": "Chinatown游行"
+    },
+    "4wU_LUjG5Ic": {
+      "source_title": "Southend-on-Sea and Kortrijk Bike Friendly Cities Parades",
+      "query_zh": "南安普敦和科尔特赖克自行车友好城市巡游"
+    },
+    "VuWGsYPqAX8": {
+      "source_title": "Flash mob protest for Syria | Sydney, Australia, May 2012 | #Silenceisbetrayal",
+      "query_zh": "叙利亚 flash 暗合动作抗议悉尼澳大利亚2012沉默就是背叛"
+    },
+    "JKpqYvAdIsw": {
+      "source_title": "ICC World Twenty20 Bangladesh 2014 Flash Mob - Pabna University of Science & Technology ( PUST )",
+      "query_zh": "ICC世界Twenty20 Bangladesh 2014快闪活动-帕布纳科技大学"
+    },
+    "xmEERLqJ2kU": {
+      "source_title": "Bluffton Teachers Flash Mob Dance (A Staff that Cares About Their Students)",
+      "query_zh": "布法顿教师街舞表演（关爱学生的团队）"
+    },
+    "byxOvuiIJV0": {
+      "source_title": "ICC World Twenty 20 Bangladesh 2014, Flash Mob - UITS, Chittagong (Official)",
+      "query_zh": "ICC世界Twenty20 Bangladesh 2014快闪mob UIT斯里姆甘杰官方版"
+    },
+    "_xMr-HKMfVA": {
+      "source_title": "CASACL - Flashmob in Copenhagen underground - Peer Gynt",
+      "query_zh": "哥本哈根地下闪 mob 演奏Peer Gynt"
+    },
+    "WxtbjNsCQ8A": {
+      "source_title": "Beekeeping101.mov",
+      "query_zh": "养蜂基础"
+    },
+    "uGu_10sucQo": {
+      "source_title": "A Year of Beekeeping",
+      "query_zh": "一年养蜂记"
+    },
+    "EE-bNr36nyA": {
+      "source_title": "Paper Wasp Removal | From the Ground Up",
+      "query_zh": "纸蜂巢拆除从地面开始"
+    },
+    "Se3oxnaPsz0": {
+      "source_title": "9/15/11 Killer Bees Kill 1000-lb Hog in Bisbee AZ",
+      "query_zh": "killer蜜蜂杀死猪ozy"
+    },
+    "oDXZc0tZe04": {
+      "source_title": "Apis Mellifera in a Vertical Log Hive",
+      "query_zh": "蜜蜂在垂直木蜂箱中"
+    },
+    "qqR6AEXwxoQ": {
+      "source_title": "Motocross Tips & Tricks : How to Whip a Motocross Bike",
+      "query_zh": "摩托车越野技巧：如何甩尾摩托车"
+    },
+    "EYqVtI9YWJA": {
+      "source_title": "Smage Bros. Motorcycle Stunt Show",
+      "query_zh": "摩托车特技秀"
+    },
+    "eQu1rNs0an0": {
+      "source_title": "How to stop your Fixie",
+      "query_zh": "固定齿轮自行车如何停止"
+    },
+    "JgHubY5Vw3Y": {
+      "source_title": "How to lock your bike. The RIGHT way!",
+      "query_zh": "正确锁车方法"
+    },
+    "iVt07TCkFM0": {
+      "source_title": "Pure Fix TV: How to Wheelie",
+      "query_zh": "纯_fix_电视：如何前轮定停"
+    },
+    "E11zDS9XGzg": {
+      "source_title": "German Shepherd Dog Show (KCI) | DoHangout",
+      "query_zh": "德国牧羊犬比赛|DoHangout"
+    },
+    "NyBmCxDoHJU": {
+      "source_title": "The Dog Show HD 720p",
+      "query_zh": "高清狗狗比赛"
+    },
+    "kLxoNp-UchI": {
+      "source_title": "Oliver's Show - Dog's tale",
+      "query_zh": "Oliver的节目-狗狗的故事"
+    },
+    "jcoYJXDG9sw": {
+      "source_title": "TODAY- Obie the obese dog works toward weight loss",
+      "query_zh": "肥胖狗狗Obie减重中"
+    },
+    "-esJrBWj2d8": {
+      "source_title": "Will A Cat Eat Dog Food?",
+      "query_zh": "猫咪吃狗粮吗"
+    }
+  },
+  "SumMe": {
+    "video_1": {
+      "source_title": "Air_Force_One",
+      "query_zh": "空军一号"
+    },
+    "video_2": {
+      "source_title": "Base jumping",
+      "query_zh": "蹦极跳"
+    },
+    "video_3": {
+      "source_title": "Bearpark_climbing",
+      "query_zh": "攀岩公园"
+    },
+    "video_4": {
+      "source_title": "Bike Polo",
+      "query_zh": "自行车 polo 游戏"
+    },
+    "video_5": {
+      "source_title": "Bus_in_Rock_Tunnel",
+      "query_zh": "公交车在岩石隧道中行驶"
+    },
+    "video_6": {
+      "source_title": "Car_railcrossing",
+      "query_zh": "汽车铁路交叉口"
+    },
+    "video_7": {
+      "source_title": "Cockpit_Landing",
+      "query_zh": "驾驶舱降落"
+    },
+    "video_8": {
+      "source_title": "Cooking",
+      "query_zh": "烹饪技巧"
+    },
+    "video_9": {
+      "source_title": "Eiffel Tower",
+      "query_zh": "埃菲尔铁塔"
+    },
+    "video_10": {
+      "source_title": "Excavators river crossing",
+      "query_zh": "挖掘机过河"
+    },
+    "video_11": {
+      "source_title": "Fire Domino",
+      "query_zh": "火连环倒塌"
+    },
+    "video_12": {
+      "source_title": "Jumps",
+      "query_zh": "跳跃"
+    },
+    "video_13": {
+      "source_title": "Kids_playing_in_leaves",
+      "query_zh": "孩子们在落叶中玩耍"
+    },
+    "video_14": {
+      "source_title": "Notre_Dame",
+      "query_zh": "巴黎圣母院"
+    },
+    "video_15": {
+      "source_title": "Paintball",
+      "query_zh": "彩弹battle"
+    },
+    "video_16": {
+      "source_title": "Playing_on_water_slide",
+      "query_zh": "水上滑梯玩耍"
+    },
+    "video_17": {
+      "source_title": "Saving dolphines",
+      "query_zh": "拯救海豚"
+    },
+    "video_18": {
+      "source_title": "Scuba",
+      "query_zh": "潜水"
+    },
+    "video_19": {
+      "source_title": "St Maarten Landing",
+      "query_zh": "圣马耳ten登岸"
+    },
+    "video_20": {
+      "source_title": "Statue of Liberty",
+      "query_zh": "自由女神像"
+    },
+    "video_21": {
+      "source_title": "Uncut_Evening_Flight",
+      "query_zh": "未剪辑傍晚航班"
+    },
+    "video_22": {
+      "source_title": "Valparaiso_Downhill",
+      "query_zh": "瓦尔帕莱索下坡"
+    },
+    "video_23": {
+      "source_title": "car_over_camera",
+      "query_zh": "汽车过摄像头"
+    },
+    "video_24": {
+      "source_title": "paluma_jump",
+      "query_zh": "_paluma跳跃_"
+    },
+    "video_25": {
+      "source_title": "playing_ball",
+      "query_zh": "玩球游戏技巧"
+    }
+  }
+}

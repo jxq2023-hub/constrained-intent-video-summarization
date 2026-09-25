@@ -1,0 +1,53 @@
+{
+  "dataset": "QFVS",
+  "folds": [
+    {
+      "fold": "P01",
+      "train_videos": [
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "test_videos": [
+        "P01"
+      ],
+      "protocol": "strict leave-one-video-out"
+    },
+    {
+      "fold": "P02",
+      "train_videos": [
+        "P01",
+        "P03",
+        "P04"
+      ],
+      "test_videos": [
+        "P02"
+      ],
+      "protocol": "strict leave-one-video-out"
+    },
+    {
+      "fold": "P03",
+      "train_videos": [
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "test_videos": [
+        "P03"
+      ],
+      "protocol": "strict leave-one-video-out"
+    },
+    {
+      "fold": "P04",
+      "train_videos": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "test_videos": [
+        "P04"
+      ],
+      "protocol": "strict leave-one-video-out"
+    }
+  ]
+}

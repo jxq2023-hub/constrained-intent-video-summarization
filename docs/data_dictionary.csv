@@ -1,0 +1,48 @@
+file,field,type,description,allowed_values_or_notes
+language_requests_1080.jsonl,video,string,QFVS video identifier,P01-P04
+language_requests_1080.jsonl,query_id,string,Concept-pair query identifier,Two concept labels joined by an underscore
+language_requests_1080.jsonl,concept1,string,First target concept,Controlled QFVS concept vocabulary
+language_requests_1080.jsonl,concept2,string,Second target concept,Controlled QFVS concept vocabulary
+language_requests_1080.jsonl,case_id,string,Unique request-case identifier,video:query_id:style or variant
+language_requests_1080.jsonl,style,string,Controlled linguistic variation category,See corpus construction method
+language_requests_1080.jsonl,variant_index,integer_or_null,Index for repeated style variants,Null when not applicable
+language_requests_1080.jsonl,query,string,Chinese natural-language request,Researcher-constructed stress-test input
+language_requests_1080.jsonl,expected_goal,string,Expected routing goal,semantic_extract or other documented route
+language_requests_1080.jsonl,expected_constraints,json_object,Expected structured constraints,Empty object when absent
+language_requests_1080.jsonl,expected_output_format,string_or_null,Expected output representation,Null when unspecified
+language_requests_1080.jsonl,corpus_status,string,Origin disclosure,Must remain researcher-simulated stress-test corpus; not real-user data
+language_requests_1080.jsonl,seed,integer,Deterministic construction seed,20260720 in current release
+language_request_parser_outputs.csv,method,string,Parser or routing configuration,Oracle-Intent; LLM-Ontology; and documented comparators
+language_request_parser_outputs.csv,parsed_goal,string,Parsed task goal,Model output
+language_request_parser_outputs.csv,parsed_focus,string,Parsed focus terms,JSON-encoded list
+language_request_parser_outputs.csv,parsed_concepts,string,Ontology-aligned concepts,JSON-encoded list
+language_request_parser_outputs.csv,routeable,boolean,Whether parsed output can drive the summarizer,True or False
+language_request_parser_outputs.csv,intent_correct,boolean,Exact intent correctness indicator,True or False
+language_request_parser_outputs.csv,selected_indices,string,Selected QFVS shot indices,JSON-encoded integer list
+language_request_parser_outputs.csv,fscore,float,Official semantic-overlap F1 score,0-1
+language_request_parser_outputs.csv,query_relevance_or,float,At-least-one-concept relevance,0-1
+language_request_parser_outputs.csv,query_relevance_and,float,Both-concepts relevance,0-1
+qfvs_method_outputs.csv,method,string,Summary-generation method,See manuscript and code archive
+qfvs_method_outputs.csv,n_shots,integer,Number of candidate shots,Positive integer
+qfvs_method_outputs.csv,selected_shots,integer,Number of selected shots,Positive integer
+qfvs_method_outputs.csv,oracle_shots,integer,Number of oracle shots,Positive integer
+qfvs_method_outputs.csv,precision,float,Official semantic-overlap precision,0-1
+qfvs_method_outputs.csv,recall,float,Official semantic-overlap recall,0-1
+qfvs_method_outputs.csv,fscore,float,Official semantic-overlap F1 score,0-1
+qfvs_method_outputs.csv,exact_fscore,float,Exact-shot F1 score,0-1
+qfvs_method_outputs.csv,adaptive_semantic_weight,float,Selected semantic-fusion weight,0-1
+query_discrimination_results.csv,true_or,float,Matched-query OR relevance,0-1
+query_discrimination_results.csv,wrong_mean_or,float,Mean mismatched-query OR relevance,0-1
+query_discrimination_results.csv,margin_or,float,Matched-minus-mismatched OR relevance,May be negative
+query_discrimination_results.csv,discrimination_auc_or,float,Query discrimination AUC under OR relevance,0-1
+query_discrimination_results.csv,true_and,float,Matched-query AND relevance,0-1
+query_discrimination_results.csv,wrong_mean_and,float,Mean mismatched-query AND relevance,0-1
+query_discrimination_results.csv,margin_and,float,Matched-minus-mismatched AND relevance,May be negative
+query_discrimination_results.csv,discrimination_auc_and,float,Query discrimination AUC under AND relevance,0-1
+human_ratings_long.csv,rater_id,string,Pseudonymous rater identifier,R001-R005
+human_ratings_long.csv,sample_id,string,Neutral questionnaire stimulus identifier,No identity information
+human_ratings_long.csv,relevance_1_5,integer,Intent relevance rating,1-5
+human_ratings_long.csv,both_concepts_coverage_1_5,integer,Coverage of both requested concepts,1-5
+human_ratings_long.csv,non_redundancy_1_5,integer,Non-redundancy rating,1-5
+human_ratings_long.csv,overall_usefulness_1_5,integer,Overall usefulness rating,1-5
+qfvs_leave_one_video_out.json,folds,array,Strict QFVS train/test split definitions,Each P01-P04 video is held out once

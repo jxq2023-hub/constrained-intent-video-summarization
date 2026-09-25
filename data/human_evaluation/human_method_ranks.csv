@@ -1,0 +1,6 @@
+﻿rater_id,CLIP-zero-shot,Ours-Nested-Intent-Selector,Uniform,Visual-BiLSTM
+R001,2.0,1.0,3.0,4.0
+R002,2.0,1.0,3.0,4.0
+R003,2.0,1.0,4.0,3.0
+R004,2.0,1.0,3.0,4.0
+R005,2.0,1.0,3.0,4.0

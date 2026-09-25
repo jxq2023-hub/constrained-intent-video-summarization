@@ -1,0 +1,51 @@
+{
+  "dataset_name": "QFVS-SimUserLang-v1",
+  "status": "researcher-simulated stress-test corpus; not real-user data",
+  "seed": 20260720,
+  "generation_unit": "180 official QFVS video-query pairs",
+  "styles": [
+    {
+      "name": "terse_fragment",
+      "expression": "lexical",
+      "template": "找{a}和{b}"
+    },
+    {
+      "name": "spoken_filler",
+      "expression": "lexical",
+      "template": "嗯，帮我看看{a}的内容吧，另外{b}也要，重复画面少一点。",
+      "expected_constraints": {"diversity": true}
+    },
+    {
+      "name": "indirect_exclusion",
+      "expression": "descriptive",
+      "template": "我不需要完整概览，只想确认视频里哪些片段同时能看到{a}以及{b}。"
+    },
+    {
+      "name": "unpunctuated_chat",
+      "expression": "lexical",
+      "template": "麻烦帮我找下{a}还有{b}有关的画面就行不用整段视频"
+    },
+    {
+      "name": "code_switch",
+      "expression": "canonical_english",
+      "template": "只保留跟 {a} 和 {b} 有关的镜头，输出关键帧。",
+      "expected_output_format": "images"
+    },
+    {
+      "name": "explicit_constraint",
+      "expression": "lexical",
+      "variants": [
+        {
+          "template": "把{a}和{b}相关内容整理成12张关键帧图片。",
+          "expected_constraints": {"frame_count": 12},
+          "expected_output_format": "images"
+        },
+        {
+          "template": "只剪出{a}和{b}有关的内容，控制在30秒左右。",
+          "expected_constraints": {"duration": 30},
+          "expected_output_format": "video"
+        }
+      ]
+    }
+  ]
+}

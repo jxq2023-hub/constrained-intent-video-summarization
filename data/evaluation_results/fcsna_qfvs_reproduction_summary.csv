@@ -1,0 +1,2 @@
+﻿method,n,precision,recall,fscore,exact_fscore,query_relevance_or,query_relevance_and
+FCSNA-QFVS-Controlled-Reproduction,180,0.45138455382574194,0.4635694549974382,0.4358204972325825,0.045291167835464316,0.2078652164692843,0.01832261656992776
